@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testes de Integração CENÁRIO 01 1`] = `
+Object {
+  "juros": 0.025,
+  "montante": 106.9,
+  "parcelas": 3,
+  "prestacoes": Array [
+    35.64,
+    35.63,
+    35.63,
+  ],
+  "primeiraPrestacao": 35.64,
+}
+`;
+
+exports[`Testes de Integração CENÁRIO 02 1`] = `
+Object {
+  "juros": 0.025,
+  "montante": 106.9,
+  "parcelas": 3,
+  "prestacoes": Array [
+    35.64,
+    35.63,
+    35.63,
+  ],
+  "primeiraPrestacao": 35.64,
+}
+`;
+
+exports[`Testes de Integração CENÁRIO 03 1`] = `
+Object {
+  "juros": 0.025,
+  "montante": 106.9,
+  "parcelas": 3,
+  "prestacoes": Array [
+    35.64,
+    35.63,
+    35.63,
+  ],
+  "primeiraPrestacao": 35.64,
+}
+`;
+
+exports[`Testes de Integração Retornar uma lista com todos os clientes persistidos na base de dados 1`] = `
+Array [
+  Object {
+    "CPF": "000.000.000-00",
+    "Nome": "João Silva",
+    "createdAt": "2024-01-31T20:05:01.534Z",
+    "updatedAt": "2024-01-31T20:05:01.534Z",
+  },
+  Object {
+    "CPF": "111.000.000-00",
+    "Nome": "Jose Silva",
+    "createdAt": "2024-01-31T20:05:01.583Z",
+    "updatedAt": "2024-01-31T20:05:01.583Z",
+  },
+  Object {
+    "CPF": "222.000.000-00",
+    "Nome": "Paulo Silva",
+    "createdAt": "2024-01-31T20:05:01.635Z",
+    "updatedAt": "2024-01-31T20:05:01.635Z",
+  },
+]
+`;
